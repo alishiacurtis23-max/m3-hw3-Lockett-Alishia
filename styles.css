@@ -1,91 +1,63 @@
-
-* {
-  box-sizing: border-box;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #6b6f74;
-  background-color: #e6e6e6;
-  background-image: url("https://www.toptal.com/designers/subtlepatterns/moroccan-flower-pattern/");
-  background-repeat: repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://graphicdesignjunction.com/wp-content/uploads/2014/05/001+background+pattern+designs.jpg'); 
+    background-repeat: repeat;
 }
 
-.site-header {
-  background-color: white;
-  border-bottom: 2px solid #d7d7d7;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
 }
 
-.header-inner {
-  width: 90%;
-  max-width: 1100px;
-  margin: 0 auto;
-  height: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
 }
 
-.name-tab {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: red;
-  color: white;
-  text-decoration: none;
-  padding: 10px 22px;
-  font-weight: bold;
+main {
+    display: flex;
+    margin: 20px;
 }
 
-.top-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+section {
+    flex: 3; 
+    padding: 20px;
 }
 
-.top-nav li {
-  margin-left: 14px;
+.profile-img {
+    float: left; 
+    margin-right: 20px;
+    width: 220px; 
 }
 
-.top-nav a {
-  text-decoration: none;
-  color: #2f7680;
-  font-weight: bold;
+aside {
+    flex: 1; 
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-left: 20px;
 }
 
-.card {
-  background-color: white;
-  border: 1px solid #d7d7d7;
-  padding: 18px;
+aside h3 {
+    margin-top: 0;
 }
 
-.card hr {
-  border: none;
-  border-top: 2px solid #d7d7d7;
-  margin: 10px 0;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.profile {
-  float: left;
-  width: 240px;
-  height: 240px;
-  margin: 0 16px 12px 0;
-  border: 6px solid white;
+ul li {
+    margin: 10px 0;
 }
 
-.icon-row {
-  display: flex;
-  margin-top: 10px;
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
 }
-
-.icon-btn {
-  width: 56px;
-  height: 46px;
