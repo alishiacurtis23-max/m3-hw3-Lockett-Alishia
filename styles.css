@@ -30,9 +30,13 @@ section {
 }
 
 .profile-img {
-    float: left; 
-    margin-right: 20px;
-    width: 220px; 
+ profile {
+  float: left;
+  width: 240px;
+  height: auto;
+  margin: 0 16px 12px 0;
+}
+
 }
 
 aside {
