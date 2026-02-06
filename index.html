@@ -1,97 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alishia Lockett | About</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <header>
-    <h1>Alishia Lockett</h1>
+  <header class="topbar">
+    <div class="brand">Alishia Lockett</div>
 
-    <nav>
-      <a href="#about">About</a> |
-      <a href="#portfolio">Portfolio</a> |
+    <nav class="nav">
+      <a href="#about">About</a>
+      <span class="divider">|</span>
+      <a href="#portfolio">Portfolio</a>
+      <span class="divider">|</span>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
+  <main class="page">
+    <div class="layout">
+      <!-- Main card -->
+      <section id="about" class="card">
+        <h2>About Me</h2>
 
-      <img
-        src="https://cdn.theorg.com/2e27df06-b0e4-4933-a021-865198ddd3be_medium.png"
-        alt="Alishia Lockett"
-        class="profile-img"
-      >
+        <div class="about-content">
+          <img
+            src="https://cdn.theorg.com/2e27df06-b0e4-4933-a021-865198ddd3be_medium.png"
+            alt="Alishia Lockett"
+            class="profile-img"
+          />
 
-      <p>
-        Alishia Lockett has professionally trained a vast variety of dogs, from family pets
-        to personal protection K9s. Being in Europe over the past 10 years has allowed her
-        to expand her knowledge on the in-depth world of dog training and breeding. Alishia
-        has owned numerous breeds, but she finds that her passion is in the working shepherds.
-        Her main focus is developing puppies into strong, resilient adults able to excel in
-        sport, family homes, or K9 work.
-      </p>
+          <div>
+            <p>
+              Alishia Lockett has professionally trained a vast variety of dogs, from family pets
+              to personal protection K9s. Being in Europe over the past 10 years has allowed her
+              to expand her knowledge on the in-depth world of dog training and breeding. Alishia
+              has owned numerous breeds, but she finds that her passion is in the working shepherds.
+              Her main focus is developing puppies into strong, resilient adults able to excel in
+              sport, family homes, or K9 work.
+            </p>
 
-      <p>
-        She also volunteers her time and knowledge to help military families overseas become
-        better handlers for their dogs.
-      </p>
+            <p>
+              She also volunteers her time and knowledge to help military families overseas become
+              better handlers for their dogs.
+            </p>
 
-      <p>
-        Alishia trains in modern dog training and the NePoPo® system created by Bart Bellon
-        and Michael Bellon. NePoPo® is a negative–positive–positive training system.
-      </p>
+            <p>
+              Alishia trains in modern dog training and the NePoPo® system created by Bart Bellon
+              and Michael Bellon. NePoPo® is a negative–positive–positive training system.
+            </p>
 
-      <p>
-        Alishia is a proud professional member of the International Association of Canine
-        Professionals (IACP) and serves as an international ambassador.
-      </p>
+            <p>
+              Alishia is a proud professional member of the International Association of Canine
+              Professionals (IACP) and serves as an international ambassador.
+            </p>
 
-      <p>
-        She currently lives in Bayern, Germany with her husband and two kids. Together they
-        own and operate Haus Amberg Shepherds, LLC. She also hosts private training, boarding,
-        and group sessions centered on obedience, tracking, and protection work. She has a
-        passion for photography and graphic design.
-      </p>
+            <p>
+              She currently lives in Bayern, Germany with her husband and two kids. Together they
+              own and operate Haus Amberg Shepherds, LLC. She also hosts private training, boarding,
+              and group sessions centered on obedience, tracking, and protection work. She has a
+              passion for photography and graphic design.
+            </p>
+          </div>
+        </div>
 
-      <ul>
-        <li>Host of YouTube channel: “German Shepherd World”</li>
-        <li>Member of the SV (Germany) – over 10 years</li>
-        <li>K9 Trainer, HAK9</li>
-        <li>Certified Dog Trainer, NePoPo Gold</li>
-        <li>Author of Blog: We Know Shepherds</li>
-        <li>Ambassador, International Association of Canine Professionals</li>
-        <li>Breeder/Owner, Haus Amberg Shepherds</li>
-      </ul>
-    </section>
+        <ul class="bullets">
+          <li>Host of YouTube channel: “German Shepherd World”</li>
+          <li>Member of the SV (Germany) – over 10 years</li>
+          <li>K9 Trainer, HAK9</li>
+          <li>Certified Dog Trainer, NePoPo Gold</li>
+          <li>Author of Blog: We Know Shepherds</li>
+          <li>Ambassador, International Association of Canine Professionals</li>
+          <li>Breeder/Owner, Haus Amberg Shepherds</li>
+        </ul>
+      </section>
 
-    <aside>
-      <h3>Connect with Me</h3>
-      <ul>
-        <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener">Stack Overflow</a></li>
-      </ul>
-    </aside>
+      <!-- Right side box -->
+      <aside class="sidebar">
+        <div class="card small">
+          <h3>Connect with Me</h3>
 
-    <section id="portfolio">
+          <div class="icon-row">
+            <a class="icon-btn github" href="https://github.com/" target="_blank" rel="noopener">GH</a>
+            <a class="icon-btn linkedin" href="https://www.linkedin.com/" target="_blank" rel="noopener">in</a>
+            <a class="icon-btn stack" href="https://stackoverflow.com/" target="_blank" rel="noopener">SO</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <section id="portfolio" class="card">
       <h2>Portfolio</h2>
       <p>Coming soon.</p>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="card">
       <h2>Contact</h2>
       <p><strong>Name:</strong> Alishia Lockett</p>
-      <p><strong>Email:</strong> <a href="mailto:Alishia@hausambergshepehrds.com">Alishia@hausambergshepehrds.com</a></p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:Alishia@hausambergshepehrds.com">Alishia@hausambergshepehrds.com</a>
+      </p>
     </section>
   </main>
 
-  <footer>
+  <footer class="footer">
     <p>© <span id="year"></span> Alishia Lockett</p>
   </footer>
 
@@ -100,3 +116,4 @@
   </script>
 </body>
 </html>
+
